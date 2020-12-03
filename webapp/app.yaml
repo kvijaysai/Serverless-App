@@ -1,0 +1,9 @@
+runtime: custom
+env: flex
+
+env_variables:
+  REDISHOST: '10.128.226.227'
+  REDISPORT: '6379'
+  
+vpc_access_connector:
+  name: 'projects/vijaysai/locations/us-central1/connectors/sentapp-redis-connector'
